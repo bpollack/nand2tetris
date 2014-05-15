@@ -28,10 +28,10 @@
 // if (out==0) set zr = 1
 // if (out<0) set ng = 1
 
-  
+
 CHIP ALU {
-    IN  
-        x[16], y[16],  // 16-bit inputs        
+    IN
+        x[16], y[16],  // 16-bit inputs
         zx, // zero the x input?
         nx, // negate the x input?
         zy, // zero the y input?
